@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.firdaus.tictactoegame.Interface2">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:drawableTop="@drawable/three"
+        android:text="3 BY 3"
+        android:fontFamily="cursive"
+        android:layout_weight="1"
+        android:onClick="open_3_by_3_ano"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:drawableTop="@drawable/three"
+        android:text="5 BY 5"
+        android:fontFamily="cursive"
+        android:layout_weight="1"
+        android:onClick="open_5_by_5_ano"/>
+
+</LinearLayout>
